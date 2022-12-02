@@ -8,12 +8,12 @@ Detailes of the CNN strucdure is in the demo.
 ## Contents
 * [Pre-requisite](#Requirements)
 * [IMU dataset](#IMUdataset)
-* [Preprocess](#Preprocess)
+* [Preprocess flowchart](#Preprocess)
 * [CNN structure](#CNNstructure)
 * [Run the demo](#Run)
 * [Results](#Results)
   * [Training/testing accuracy vs. epoch](#accuracy)
-  * [Training error vs. epoch](#Error)
+<!--   * [Training error vs. epoch](#Error) -->
 
 
 <a name="Requirements">
@@ -26,7 +26,8 @@ Detailes of the CNN strucdure is in the demo.
 
 <a name="Preprocess">
 
-## Preprocess
+## Preprocess flowchart
+The raw time-series data will be processed before inputting to CNN model.
 <img src="fig/flowchart.jpg" width="600">
 
 
@@ -71,13 +72,13 @@ Running the demo for 200 epochs, the classification accuracy of inputs (AxAzGy) 
 
 <img src="fig/accuracy.jpg" width="400">
 
-<a name="Error">
+<!-- <a name="Error">
 
 ### Training and testing error in binary_crossentropy 
 The loss function used in this demo is 
 <img src="fig/loss_fun.png" width="200">
 
-<img src="fig/loss_axazgy.jpeg" width="400">
+<img src="fig/loss_axazgy.jpeg" width="400"> -->
 
 
 

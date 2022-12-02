@@ -8,7 +8,6 @@ Detailes of the CNN strucdure is in the demo.
 ## Contents
 * [Pre-requisite](#Requirements)
 * [IMU dataset](#IMUdataset)
-  * [Some samples of digit images](#samples)
 * [Preprocess](#Preprocess)
 * [CNN structure](#CNNstructure)
 * [Run the demo](#Run)

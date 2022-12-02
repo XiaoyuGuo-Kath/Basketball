@@ -9,8 +9,9 @@ The implementation of CNN uses the trimmed version of DeepLearnToolbox by [R. B.
 
 ## Contents
 * [Pre-requisite](#Requirements)
-* [IMU dataset](#MNISTdataset)
+* [IMU dataset](#IMUdataset)
   * [Some samples of digit images](#samples)
+* [Preprocess](#Preprocess)
 * [CNN structure](#CNNstructure)
 * [Run the demo](#Run)
 * [Results](#Results)
@@ -26,6 +27,12 @@ The implementation of CNN uses the trimmed version of DeepLearnToolbox by [R. B.
 * Tensorflow
 * sklearn
 
+<a name="Preprocess">
+
+## Preprocess
+<img src="fig/flowchart.jpg">
+
+
 <a name="IMUdataset">
 
 ## IMU dataset
@@ -36,7 +43,7 @@ In the IMU dataset, there are 888 shootings digit images for training and 223 fo
 
 ## CNN structure in the demo
 
-<img src="figs/CNNmodel.png">
+<img src="fig/CNNmodel.jpg">
 
 <a name="Run">
 
@@ -64,18 +71,15 @@ Running the demo for 200 epochs, the classification accuracy is shown as follow.
 
 ### Training and testing accuracy vs. epoch
 
-<img src="figs/train_accu.png" width="400">
+<img src="fig/accuracy.jpg" width="400">
 
 <a name="Error">
 
 ### Training error in Mean Square Error (MSE) 
 The loss function used in this demo is 
 
-<img src="figs/loss_func.png" width="200">
+<img src="fig/loss_axazgy.jpeg" width="200">
 
-where y and y_hat denote the true label and prediction, respectively.
-
-<img src="figs/train_MSE.png" width="400">
 
 
 

@@ -1,11 +1,9 @@
 # Basketball
 
-# An Example of CNN on MNIST dataset
+# An Example of CNN on IMU dataset
 
-Detailes of the CNN strucdure in the demo, as well as the mathematical derivation of 
-backpropagation can be found in ["Derivation of Backpropagation in Convolutional Neural Network (CNN)"](doc/Derivation_of_Backpropagation_in_CNN.pdf), which is specifically written for this demo.  
+Detailes of the CNN strucdure is in the demo.
 
-The implementation of CNN uses the trimmed version of DeepLearnToolbox by [R. B. Palm](https://github.com/rasmusbergpalm/DeepLearnToolbox). 
 
 ## Contents
 * [Pre-requisite](#Requirements)
@@ -60,16 +58,12 @@ Note that input Ax, Az and Gy will be performs in this demo. If you want to run 
 <a name="Results">
 
 ## Results
-Running the demo for 200 epochs, the classification accuracy of different inputs is shown as follow. Note that the results may be a little bit different for each running because of the random initialization of convolutional kernels.
+Running the demo for 200 epochs, the classification accuracy of inputs (AxAzGy) is shown as follow. Note that the results may be a little bit different for each running because of the random initialization of convolutional kernels.
 
 | input | Testing loss | Testing accuracy |
 | :---: | :---: | :---: |
-| Ax | 0.5 | 82% |
-| Ay | 99.34% | 99.02% |
-| Az | 99.34% | 99.02% |
-| Gx | 0.5 | 82% |
-| Gy | 99.34% | 99.02% |
-| Gz | 99.34% | 99.02% |
+| AxAzGy | 0.443 | 88.2% |
+
 
 
 <a name="accuracy">
